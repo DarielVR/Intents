@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/ValA"
+        android:layout_width="match_parent"
+        android:hint="Valor A"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/ValB"
+        android:layout_width="match_parent"
+        android:hint="Valor B"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:id="@+id/btnRegresar"/>
+
+</LinearLayout>
